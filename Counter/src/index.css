@@ -1,5 +1,5 @@
-.header{
-    text-align: center;
+body{
+    background-color: aliceblue;
 }
 
 .plusButton{
@@ -12,9 +12,22 @@
 
 .button{
     border-style: none;
+    height: 5em;
+    width: 5em;
+    margin-top: 3em;
+}
+
+.counter{
+    font-size: 3em;
 }
 
 .counterContainer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px 10px lightblue;
+    background-color: whitesmoke;
+    height: 10em;
+    width: 15em;
 }

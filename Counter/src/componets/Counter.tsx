@@ -12,7 +12,7 @@ const Counter = ({plusButton, minusButton}: CounterProp) => {
     return (
         <div className={"counterContainer"}>
             <button className={"plusButton button"} onClick={() => setCount(count + 1)}>{plusButton}</button>
-            <h2>{count}</h2>
+            <p className={"counter"}>{count}</p>
             <button className={"minusButton button"} onClick={() => setCount(count - 1)}>{minusButton}</button>
         </div>
     )
